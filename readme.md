@@ -97,13 +97,13 @@ c:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-06-10 221752.png
 Se ingresó al directorio `backend` mediante la terminal integrada de Visual Studio Code para inicializar el proyecto, instalar los módulos críticos de Node.js (`express` y `cors`), y estructurar los endpoints de la API.
 
 ```powershell
-cd C:\Users\usuario\Desktop\proyecto-contenedor\backend
-
+(files.png)
 npm init -y
 npm install express cors
 npm start
-c:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-06-10 221836.png
-
+(init.png)
+(install.png)
+(npm_create.png)
 c:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-06-10 221913.png
 
 ## Paso 3: Instalación de Docker Desktop
@@ -112,7 +112,7 @@ Se descargó el instalador oficial de Docker Desktop para Windows y se ejecutó 
 
 Durante el asistente de configuración, se marcó de forma obligatoria la opción de activar el motor de virtualización basado en **WSL 2 (Windows Subsystem for Linux)**, garantizando un entorno nativo de alto rendimiento para ejecutar los contenedores de Linux.
 
-c:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-06-10 222020.png
+
 
 ---
 
@@ -126,8 +126,8 @@ Al acceder desde el navegador a:
 ```text
 http://localhost:3000
 
-c:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-06-10 205704.png
-c:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-06-10 205834.png
+(front}.png)
+(back.png)
 
 # 10. Bibliografía
 
